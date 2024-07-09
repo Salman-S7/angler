@@ -27,7 +27,7 @@ const HeroSection = () => {
           <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl hover:text-neutral-300">
             Book A Demo
           </span>
-        </button>{" "}
+        </button>
       </div>
     </div>
   );

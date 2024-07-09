@@ -7,7 +7,6 @@ import { howItWorksItems } from "@/public/data";
 
 
 const HowItWorksSection = () => {
-  console.log(howItWorksItems);
   return (
     <div className="sm:px-8 px-2">
       <h1 className="text-4xl font-bold text-sky-400">How it works</h1>
