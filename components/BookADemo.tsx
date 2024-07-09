@@ -4,7 +4,7 @@ const BookADemo = () => {
     return (
       <div className="w-full h-[32vh] md:px-8 px-2">
         <MovingBorders duration={10000}>
-          <div className="flex flex-col justify-between items-center gap-5">
+          <div className="flex flex-col justify-center items-center gap-5">
             <p className="block text-4xl text-sky-400 font-bold">
               You want to know more?
             </p>
