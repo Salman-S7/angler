@@ -12,11 +12,11 @@ export function AboutCard({
   description: string;
 }) {
   return (
-    <div className="lg:w-1/2 w-full h-[44vh] group/card">
+    <div className="lg:w-1/2 w-full h-[76vh] group/card">
       <div
         className={cn(
-          "cursor-pointer overflow-hidden relative card rounded-md shadow-xl mx-auto backgroundImage flex flex-col justify-between p-4 w-full h-full",
-          "bg-[url(https://images.unsplash.com/photo-1544077960-604201fe74bc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80)] bg-cover"
+          "overflow-hidden relative card rounded-md shadow-xl mx-auto backgroundImage flex flex-col justify-between p-4 w-full h-full bg-center",
+          "bg-[url(https://images.unsplash.com/photo-1718844054447-fb4e6b4c7ea8?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-cover"
         )}
       >
         <div className="absolute w-full h-full top-0 left-0 transition duration-300 group-hover/card:bg-black opacity-60"></div>
@@ -36,10 +36,10 @@ export function AboutCard({
           </div>
         </div>
         <div className="text content">
-          <h1 className="font-bold text-xl md:text-2xl text-sky-400 relative z-10">
+          <h1 className="hidden sm:block font-bold text-xl md:text-2xl text-sky-400 relative z-10">
             {name}
           </h1>
-          <p className="sm:font-sm leading-9 text-lg text-gray-300 relative z-10 my-4">
+          <p className="sm:font-sm leading-9 text-gray-300 relative z-10 my-4">
             {description}
           </p>
         </div>
