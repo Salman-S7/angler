@@ -12,7 +12,7 @@ export function AboutCard({
   description: string;
 }) {
   return (
-    <div className="lg:w-1/2 w-full h-[64vh] group/card">
+    <div className="lg:w-1/2 w-full h-[44vh] group/card">
       <div
         className={cn(
           "cursor-pointer overflow-hidden relative card rounded-md shadow-xl mx-auto backgroundImage flex flex-col justify-between p-4 w-full h-full",
@@ -22,11 +22,11 @@ export function AboutCard({
         <div className="absolute w-full h-full top-0 left-0 transition duration-300 group-hover/card:bg-black opacity-60"></div>
         <div className="flex flex-row items-center space-x-4 z-10">
           <Image
-            height="100"
-            width="100"
+            height="200"
+            width="200"
             alt="Avatar"
             src={image}
-            className="h-10 w-10 rounded-full border-2 object-cover"
+            className="h-14 w-14 rounded-full border-2 object-cover"
           />
           <div className="flex flex-col">
             <p className="font-bold text-lg text-sky-400  relative z-10">
@@ -39,7 +39,7 @@ export function AboutCard({
           <h1 className="font-bold text-xl md:text-2xl text-sky-400 relative z-10">
             {name}
           </h1>
-          <p className="font-normal leading-9 text-lg text-gray-50 relative z-10 my-4">
+          <p className="sm:font-sm leading-9 text-lg text-gray-300 relative z-10 my-4">
             {description}
           </p>
         </div>
