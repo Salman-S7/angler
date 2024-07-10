@@ -2,16 +2,17 @@ import { MovingBorders } from "./ui/moving-borders";
 
 const BookADemo = () => {
     return (
-      <div className="w-full h-[32vh] md:px-8 px-2">
+      <div className="w-full h-[32vh] md:px-8 px-2 my-12">
         <MovingBorders duration={10000}>
           <div className="flex flex-col justify-center items-center gap-5">
-            <p className="block text-4xl text-sky-400 font-bold">
+            <p className="block md:text-5xl text-3xl font-bold text-sky-400 w-full text-center">
               You want to know more?
             </p>
 
-            <p className="block text-2xl">
+            <p className="w-full text-center block sm:text-2xl">
               Discover how Angler can transform how you manage product data and
-              accelerate your growth. <span className="text-sky-400">Because this is the future.</span>
+              accelerate your growth.{" "}
+              <span className="text-sky-400 font-bold">Because this is the future.</span>
             </p>
 
             <button className="relative inline-flex h-12 w-56 overflow-hidden rounded-full p-[2px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 ">
