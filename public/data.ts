@@ -19,11 +19,11 @@ export const navItems = [
     },
     {
       name: "About",
-      link: "/about",
+      link: "#about",
     },
     {
       name: "Demo",
-      link: "/contact",
+      link: "/",
     },
 ];
 
