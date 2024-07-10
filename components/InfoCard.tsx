@@ -11,7 +11,7 @@ const InfoCard = ({ heading, subHeading, description, image, flex }: {
 }) => {
     return (
       <div
-        className={`border flex flex-col lg:flex-row items-center border-[#e5e7eb] p-2 lg:p-8 rounded-lg lg:h-[90vh] w-full lg:gap-16 gap-8 lg:${flex} mb-12`}
+        className={`border flex flex-col lg:flex-row items-center border-gray-700 p-6 sm:p-8 rounded-lg lg:h-auto w-full lg:gap-16 gap-8 lg:${flex} mb-12`}
       >
         <div className="rounded-lg">
           <Image
@@ -21,13 +21,15 @@ const InfoCard = ({ heading, subHeading, description, image, flex }: {
           />
         </div>
         <div className="h-full flex flex-col lg:justify-between lg:w-[40%] w-full">
-          <h1 className="font-bold lg:text-6xl text-2xl text-sky-400">{heading}</h1>
-          <ul className="lg:text-xl text-lg list-disc list-inside">
-            <span className="text-neutral-400">{subHeading}</span>
-            <li>{description[0]}</li>
-            <li>{description[1]}</li>
-            <li>{description[2]}</li>
-            <li>{description[3]}</li>
+          <h1 className="font-bold lg:text-6xl text-2xl text-sky-400 pb-10">
+            {heading}
+          </h1>
+          <ul className="lg:text-xl text-lg list-disc list-inside text-neutral-400">
+            <span className="text-white mb-5 inline-block">{subHeading}</span>
+            <li className="pb-2">{description[0]}</li>
+            <li className="pb-2">{description[1]}</li>
+            <li className="pb-2">{description[2]}</li>
+            <li className="pb-2">{description[3]}</li>
           </ul>
         </div>
       </div>
