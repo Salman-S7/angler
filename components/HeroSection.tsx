@@ -1,12 +1,11 @@
 import { FlipWords } from "@/components/ui/flip-words";
-import { BackgroundBeams } from "./ui/bg-beams";
 
 const HeroSection = () => {
   const words = ["Distributors", "Retailers", "Brands", "Marketplaces"];
 
   return (
     <>
-      <div className="h-[100dvh] z-20 relative flex justify-center items-center px-4 flex-col gap-[4%]">
+      <div className="h-[100lvh] z-20 relative flex justify-center items-center px-4 flex-col gap-[4%]">
         <span className="flex w-full items-center justify-center text-neutral-400  gap-4">
           Backed by{" "}
           <img
@@ -32,7 +31,6 @@ const HeroSection = () => {
           </button>
         </div>
       </div>
-      {/* <BackgroundBeams/> */}
     </>
   );
 };
