@@ -8,9 +8,9 @@ import { howItWorksItems } from "@/public/data";
 
 const HowItWorksSection = () => {
   return (
-    <div className="sm:px-8 px-2">
-      <h1 className="text-4xl font-bold text-sky-400">How it works</h1>
-      <div className="flex flex-col sm:flex-row w-full items-center justify-between py-20">
+    <div className="sm:px-8 px-2 sm:mb-8 mb-8">
+      <h1 className="md:text-5xl text-3xl font-bold text-sky-400 w-full text-center">How it works</h1>
+      <div className="flex flex-col md:flex-row w-full items-center justify-between">
         {howItWorksItems.map((item) => {
           return (
             <CardContainer className="inter-var" key={item.heading}>
