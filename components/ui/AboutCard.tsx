@@ -12,7 +12,7 @@ export function AboutCard({
   description: string;
 }) {
   return (
-    <div className="w-1/2 h-[64vh] group/card">
+    <div className="lg:w-1/2 w-full h-[64vh] group/card">
       <div
         className={cn(
           "cursor-pointer overflow-hidden relative card rounded-md shadow-xl mx-auto backgroundImage flex flex-col justify-between p-4 w-full h-full",
@@ -29,17 +29,17 @@ export function AboutCard({
             className="h-10 w-10 rounded-full border-2 object-cover"
           />
           <div className="flex flex-col">
-            <p className="font-normal text-base text-gray-50 relative z-10">
+            <p className="font-bold text-lg text-sky-400  relative z-10">
               {name}
             </p>
-            <p className="text-sm text-gray-400">co-founder</p>
+            <p className="text-sm text-white-400">co-founder</p>
           </div>
         </div>
         <div className="text content">
-          <h1 className="font-bold text-xl md:text-2xl text-gray-50 relative z-10">
+          <h1 className="font-bold text-xl md:text-2xl text-sky-400 relative z-10">
             {name}
           </h1>
-          <p className="font-normal text-sm text-gray-50 relative z-10 my-4">
+          <p className="font-normal leading-9 text-lg text-gray-50 relative z-10 my-4">
             {description}
           </p>
         </div>
