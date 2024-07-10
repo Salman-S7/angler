@@ -9,7 +9,7 @@ const BookADemo = () => {
               You want to know more?
             </p>
 
-            <p className="w-full text-center block sm:text-2xl">
+            <p className="w-full text-center block sm:text-2xl px-4">
               Discover how Angler can transform how you manage product data and
               accelerate your growth.{" "}
               <span className="text-sky-400 font-bold">Because this is the future.</span>
