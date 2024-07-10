@@ -4,9 +4,9 @@ import { AboutCard } from "./ui/AboutCard";
 
 const About = () => {
     return (
-      <div className="h-[100vh]">
+      <div className="h-auto">
         <AboutMarquee />
-        <div className="flex w-full justify-between items-center md:px-8 px-2 gap-9 mt-9">
+        <div className="flex w-full lg:flex-row flex-col justify-between items-center md:px-8 px-2 gap-9 mt-9">
           {founders.map((founder) => (
             <AboutCard
               name={founder.name}
