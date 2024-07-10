@@ -9,6 +9,7 @@ const About = () => {
         <div className="flex w-full lg:flex-row flex-col justify-between items-center gap-9 mt-9">
           {founders.map((founder) => (
             <AboutCard
+              key={founder.name}
               name={founder.name}
               description={founder.description}
               image={founder.image}
