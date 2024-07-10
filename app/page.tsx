@@ -7,7 +7,7 @@ import InfoSection from "@/components/InfoSection";
 
 export default function Home() {
   return (
-    <main>
+    <main className="overflow-x-hidden">
       {<HeroSection />}
       {<HowItWorksSection />}
       {<InfoSection />}
