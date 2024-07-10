@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (  
     <html lang="en" className="dark">
-      <body className={`${inter.className} overflow-x-hidden bg-black`}>
+      <body className={`${inter.className} overflow-x-hidden`}>
         {<FloatingNav navItems={navItems} />}
         {children}
       </body>
