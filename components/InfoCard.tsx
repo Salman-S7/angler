@@ -11,7 +11,7 @@ const InfoCard = ({ heading, subHeading, description, image, flex }: {
 }) => {
     return (
       <div
-        className={`bg-gradient-to-l from-slate-900 to-slate-700 border flex flex-col lg:flex-row items-center border-gray-700 p-6 sm:p-8 rounded-lg lg:h-auto w-full lg:gap-16 gap-8 lg:${flex} mb-12`}
+        className={`bg-gradient-to-l from-slate-900 to-slate-700 border flex flex-col items-center border-gray-700 p-6 sm:p-8 rounded-lg lg:h-auto w-full lg:gap-16 gap-8 lg:${flex} lg:flex-row mb-12`}
       >
         <div className="rounded-lg">
           <Image

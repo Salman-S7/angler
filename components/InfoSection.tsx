@@ -13,7 +13,7 @@ const InfoSection = () => {
             subHeading={item.subHeading}
             description={item.description}
             image={item.image}
-            flex={i%2 === 0 ? "" : "flex-row-reverse"}
+            flex={i % 2 === 0 ? "flex-row" : "flex-row-reverse"}
           />
         );
       })}
